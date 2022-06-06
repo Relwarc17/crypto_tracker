@@ -28,7 +28,7 @@ class App extends Component {
       "headers":{
         "content-type":"application/octet-stream",
         'X-RapidAPI-Host': 'coinpaprika1.p.rapidapi.com',
-        'X-RapidAPI-Key': 'b0b7388c91msh211c02233e5cc06p181af6jsncc085a036973',
+        'X-RapidAPI-Key': 'YOUR_API_KEY',
         "useQueryString":true
       }
     })
@@ -81,7 +81,7 @@ class App extends Component {
       "headers":{
       "content-type":"application/octet-stream",
         'X-RapidAPI-Host': 'coinpaprika1.p.rapidapi.com',
-        'X-RapidAPI-Key': 'b0b7388c91msh211c02233e5cc06p181af6jsncc085a036973',
+        'X-RapidAPI-Key': 'YOUR_API_KEY',
       "useQueryString":true
       }
     })
