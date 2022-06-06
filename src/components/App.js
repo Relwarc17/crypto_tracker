@@ -27,8 +27,8 @@ class App extends Component {
       "url":"https://coinpaprika1.p.rapidapi.com/tickers",
       "headers":{
         "content-type":"application/octet-stream",
-        "x-rapidapi-host":"coinpaprika1.p.rapidapi.com",
-        "x-rapidapi-key":"YOUR_RAPID_API_KEY",
+        'X-RapidAPI-Host': 'coinpaprika1.p.rapidapi.com',
+        'X-RapidAPI-Key': 'b0b7388c91msh211c02233e5cc06p181af6jsncc085a036973',
         "useQueryString":true
       }
     })
@@ -80,8 +80,8 @@ class App extends Component {
       "url":"https://coinpaprika1.p.rapidapi.com/global",
       "headers":{
       "content-type":"application/octet-stream",
-      "x-rapidapi-host":"coinpaprika1.p.rapidapi.com",
-      "x-rapidapi-key":"YOUR_RAPID_API_KEY",
+        'X-RapidAPI-Host': 'coinpaprika1.p.rapidapi.com',
+        'X-RapidAPI-Key': 'b0b7388c91msh211c02233e5cc06p181af6jsncc085a036973',
       "useQueryString":true
       }
     })
@@ -164,7 +164,6 @@ class App extends Component {
                         })}
                       </tbody>
                   </table>
-                }
               </main>
             </div>
           </div>
